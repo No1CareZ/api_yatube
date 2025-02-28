@@ -19,6 +19,6 @@ router.register('groups', GroupViewSet, basename='groups')
 
 
 urlpatterns = [
-    path('v1/api-token-auth/', views.obtain_auth_token, name='FUCK YANDEX'),
+    path('v1/api-token-auth/', views.obtain_auth_token, name='cool'),
     path('v1/', include(router.urls)),
 ]
